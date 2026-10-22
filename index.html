@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff0f4">
+<title>Para Isabelly, com amor ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--rose:#e94f79;--deep:#8d2348;--pink:#fff0f4;--cream:#fffaf8;--ink:#4b2333}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+.hearts-bg{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}.heart{position:absolute;bottom:-50px;color:#f3a2b7;opacity:.55;animation:floatUp linear infinite}
+@keyframes floatUp{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;justify-content:center;gap:26px;padding:16px;background:#fffaf8d9;backdrop-filter:blur(12px);border-bottom:1px solid #f4d6df}
+nav a{color:var(--deep);text-decoration:none;font-size:.9rem;font-weight:700}nav a:hover{color:var(--rose)}
+section{position:relative;z-index:1;padding:90px 20px;scroll-margin-top:55px}.hero{min-height:100vh;display:grid;place-items:center;text-align:center;background:radial-gradient(ellipse at top,#ffe0e9 0%,#fff4f6 48%,#fffaf8 100%);padding-top:110px}
+.hero-inner{max-width:850px}.eyebrow{text-transform:uppercase;letter-spacing:3px;color:var(--rose);font-size:.75rem;font-weight:700}
+h1{font-family:'Great Vibes',cursive;font-weight:400;color:var(--deep);font-size:clamp(4.2rem,12vw,8.5rem);line-height:1;margin:18px 0}
+.hero p{max-width:620px;margin:0 auto;color:#704255;font-size:clamp(1rem,2.6vw,1.25rem);line-height:1.8}
+.big-heart{font-size:2.5rem;display:inline-block;animation:beat 1.25s infinite;margin-top:22px}@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.2)}30%{transform:scale(1)}45%{transform:scale(1.12)}}
+.btn{display:inline-block;border:0;border-radius:999px;padding:14px 24px;margin-top:28px;background:linear-gradient(135deg,#f36b91,#d83d6c);color:white;font-weight:700;text-decoration:none;box-shadow:0 12px 25px #e94f7933;cursor:pointer;transition:.25s}.btn:hover{transform:translateY(-3px);box-shadow:0 16px 28px #e94f7944}
+.wrap{max-width:1050px;margin:auto}.section-head{text-align:center;margin-bottom:38px}.section-head h2{font:600 clamp(2rem,5vw,3.2rem) 'Playfair Display',serif;color:var(--deep);margin:8px 0}.section-head p{color:#85596a;line-height:1.7}
+.love-note{background:white;border:1px solid #f5d8e1;border-radius:26px;padding:clamp(24px,5vw,48px);max-width:800px;margin:auto;box-shadow:0 18px 50px #8d23480b;line-height:2;font-size:1.04rem}.love-note p{margin:0 0 16px}.signature{font:2.6rem 'Great Vibes',cursive;color:var(--rose);text-align:right;margin-top:20px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.photo{margin:0;overflow:hidden;border-radius:20px;background:#f9dce5;box-shadow:0 12px 28px #6b1c3b12;transition:transform .3s}.photo:hover{transform:translateY(-6px) rotate(-.5deg)}.photo img{display:block;width:100%;height:340px;object-fit:cover;transition:transform .5s}.photo:hover img{transform:scale(1.04)}.photo figcaption{text-align:center;padding:13px;color:#8d2348;font-family:'Playfair Display',serif;background:#fff9fb}
+.counter-area{background:linear-gradient(135deg,#8d2348,#d84470);color:white;text-align:center}.counter-area .section-head h2,.counter-area .section-head p{color:white}.counter{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:28px auto}.countbox{min-width:100px;padding:20px 16px;border:1px solid #ffffff66;background:#ffffff15;border-radius:18px;backdrop-filter:blur(8px)}.countbox strong{display:block;font-size:2.2rem}.countbox span{font-size:.8rem;opacity:.9}.date-note{font-size:.9rem;opacity:.85}
+.promise-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.promise{padding:24px;background:white;border:1px solid #f5d8e1;border-radius:20px;text-align:center;box-shadow:0 10px 30px #8d23480a}.promise .emoji{font-size:2rem}.promise h3{font-family:'Playfair Display',serif;color:var(--deep)}.promise p{line-height:1.7;color:#85596a;font-size:.95rem}
+.final{background:#fff0f4;text-align:center}.final h2{font:400 clamp(3rem,8vw,5.5rem) 'Great Vibes',cursive;color:var(--deep);margin:0 0 12px}.final p{max-width:600px;margin:0 auto;line-height:1.8}
+footer{position:relative;z-index:1;text-align:center;padding:25px;color:#9c6d7e;font-size:.82rem}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
+@media(max-width:700px){nav{gap:14px;padding:14px 8px}nav a{font-size:.78rem}.gallery{grid-template-columns:repeat(2,1fr);gap:10px}.photo img{height:250px}.promise-grid{grid-template-columns:1fr}.countbox{min-width:75px;padding:16px 12px}.countbox strong{font-size:1.7rem}section{padding:75px 16px}}
+@media(max-width:420px){.gallery{grid-template-columns:1fr 1fr}.photo img{height:210px}.photo figcaption{font-size:.85rem}}
+</style>
+</head>
+<body>
+<div class="hearts-bg" id="hearts"></div>
+<nav><a href="#inicio">Início</a><a href="#carta">Minha carta</a><a href="#memorias">Memórias</a><a href="#tempo">Nosso tempo</a></nav>
+<section class="hero" id="inicio">
+ <div class="hero-inner">
+  <div class="eyebrow">Uma página feita com carinho</div>
+  <h1>Isabelly</h1>
+  <p>Se eu pudesse escolher de novo, entre todas as pessoas e todos os caminhos, meu coração ainda escolheria você. ❤️</p>
+  <div class="big-heart">♥</div><br>
+  <a class="btn" href="#carta">Abra sua surpresa 💌</a>
+ </div>
+</section>
+<section id="carta">
+ <div class="wrap reveal">
+  <div class="section-head"><div class="eyebrow">De Miguel para você</div><h2>Uma cartinha do coração</h2><p>Porque você merece saber o quanto é especial para mim.</p></div>
+  <article class="love-note">
+   <p>Meu amor, Isabelly,</p>
+   <p>Às vezes, eu tento encontrar as palavras certas para explicar o que sinto por você, mas parece que nenhuma é grande o bastante. Você chegou e fez meus dias terem mais cor, meus sorrisos terem mais motivos e meu coração ter um lugar favorito: ao seu lado.</p>
+   <p>Eu amo nossas brincadeiras, nossas fotos, nossos momentos bobos e até aquelas pequenas coisas que talvez pareçam simples, mas que comigo ficam guardadas com muito carinho. Não preciso que todos os dias sejam perfeitos; só quero continuar construindo lembranças com você, aprendendo com a gente e escolhendo cuidar do nosso amor.</p>
+   <p>Quero estar presente nos dias bons e também naqueles em que tudo parecer difícil. Quero te ouvir, te apoiar, respeitar seu coração e te lembrar, quantas vezes for preciso, que você é muito importante para mim.</p>
+   <p>Obrigado por fazer parte da minha vida. Que o nosso amor continue crescendo com carinho, confiança, parceria e muitos motivos para sorrir. Isso aqui é só uma pequena forma de mostrar um sentimento que é muito maior.</p>
+   <p>Eu te amo, minha Isabelly. Hoje, amanhã e em cada novo capítulo da nossa história. ❤️</p>
+   <div class="signature">Com amor, Miguel</div>
+  </article>
+ </div>
+</section>
+<section id="memorias">
+ <div class="wrap reveal">
+  <div class="section-head"><div class="eyebrow">Pequenos momentos, grandes lembranças</div><h2>Nossa galerinha de memórias 📸</h2><p>Cada foto guarda um pedacinho da nossa história.</p></div>
+  <div class="gallery">
+   <figure class="photo"><img src="fotos/foto1.jpeg" alt="Uma lembrança nossa" loading="lazy"><figcaption>Meu lugar favorito é perto de você ❤️</figcaption></figure>
+   <figure class="photo"><img src="fotos/foto2.jpeg" alt="Um momento especial nosso" loading="lazy"><figcaption>Do nosso jeitinho ✨</figcaption></figure>
+   <figure class="photo"><img src="fotos/foto3.jpeg" alt="Uma foto nossa" loading="lazy"><figcaption>Um momento que vale muito</figcaption></figure>
+   <figure class="photo"><img src="fotos/foto4.jpeg" alt="Nós dois juntos" loading="lazy"><figcaption>Minha pessoa especial 💗</figcaption></figure>
+   <figure class="photo"><img src="fotos/foto5.jpeg" alt="Uma recordação nossa" loading="lazy"><figcaption>Que venham muitas outras</figcaption></figure>
+   <figure class="photo"><img src="fotos/foto6.jpeg" alt="Mais uma lembrança nossa" loading="lazy"><figcaption>Nós, hoje e nos próximos capítulos</figcaption></figure>
+  </div>
+ </div>
+</section>
+<section class="counter-area" id="tempo">
+ <div class="wrap reveal">
+  <div class="section-head"><div class="eyebrow" style="color:#ffd5e0">Desde 8 de maio</div><h2>O tempo passa, meu amor só cresce</h2><p>Uma contagem do tempo desde o começo da nossa história.</p></div>
+  <div class="counter">
+   <div class="countbox"><strong id="days">—</strong><span>dias</span></div>
+   <div class="countbox"><strong id="hours">—</strong><span>horas</span></div>
+   <div class="countbox"><strong id="minutes">—</strong><span>minutos</span></div>
+   <div class="countbox"><strong id="seconds">—</strong><span>segundos</span></div>
+  </div>
+  <p class="date-note">Nossa história começou em 8 de maio. ❤️</p>
+ </div>
+</section>
+<section>
+ <div class="wrap reveal">
+  <div class="section-head"><div class="eyebrow">Promessas simples e sinceras</div><h2>O que eu quero com você</h2></div>
+  <div class="promise-grid">
+   <div class="promise"><div class="emoji">🤍</div><h3>Te respeitar</h3><p>Ouvir você, respeitar seus sentimentos e cuidar da confiança que existe entre nós.</p></div>
+   <div class="promise"><div class="emoji">🌷</div><h3>Te apoiar</h3><p>Torcer pelos seus sonhos e estar do seu lado enquanto você conquista cada um deles.</p></div>
+   <div class="promise"><div class="emoji">🌙</div><h3>Criar memórias</h3><p>Viver momentos simples, rir das nossas besteiras e construir uma história bonita juntos.</p></div>
+  </div>
+ </div>
+</section>
+<section class="final">
+ <div class="wrap reveal"><h2>Você é meu presente favorito.</h2><p>Se um dia você esquecer o quanto é amada, volte aqui e lembre: existe um Miguel que sorri diferente quando pensa em você. Obrigado por ser você, Isabelly.</p><div class="big-heart">♥</div><br><button class="btn" onclick="showLove()">Clique aqui, meu amor 💌</button><p id="surprise" style="display:none;margin-top:22px;font-weight:700;color:#8d2348">Eu te amo mais do que consigo colocar em palavras. Você é muito especial para mim! — Miguel ❤️</p></div>
+</section>
+<footer>Feito com muito amor por Miguel, especialmente para Isabelly ♥</footer>
+<script>
+const hearts=document.getElementById('hearts');
+for(let i=0;i<22;i++){const h=document.createElement('span');h.className='heart';h.textContent=['♥','♡','❤'][i%3];h.style.left=Math.random()*100+'%';h.style.animationDuration=(9+Math.random()*13)+'s';h.style.animationDelay=(-Math.random()*18)+'s';h.style.fontSize=(12+Math.random()*22)+'px';hearts.appendChild(h)}
+// Data inicial configurada como 8 de maio de 2026. Altere o ano abaixo caso tenham começado em outro ano.
+const inicioRelacionamento=new Date(2026,4,8,0,0,0);
+function atualizarContagem(){let diff=Math.max(0,Date.now()-inicioRelacionamento.getTime());const d=Math.floor(diff/86400000);const h=Math.floor(diff%86400000/3600000);const m=Math.floor(diff%3600000/60000);const s=Math.floor(diff%60000/1000);document.getElementById('days').textContent=d;document.getElementById('hours').textContent=h;document.getElementById('minutes').textContent=m;document.getElementById('seconds').textContent=s}
+atualizarContagem();setInterval(atualizarContagem,1000);
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+function showLove(){document.getElementById('surprise').style.display='block';for(let i=0;i<18;i++){const h=document.createElement('span');h.textContent='♥';h.style.cssText=`position:fixed;z-index:20;left:${Math.random()*100}vw;top:105vh;color:#e94f79;font-size:${18+Math.random()*24}px;pointer-events:none;transition:transform 2.8s ease,opacity 2.8s ease`;document.body.appendChild(h);requestAnimationFrame(()=>{h.style.transform=`translateY(-110vh) rotate(${Math.random()*80-40}deg)`;h.style.opacity='0'});setTimeout(()=>h.remove(),3000)}}
+</script>
+</body></html>

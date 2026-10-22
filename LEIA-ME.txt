@@ -1,0 +1,19 @@
+SITE ROMÂNTICO — MIGUEL E ISABELLY
+
+Como abrir:
+1. Extraia o arquivo ZIP.
+2. Abra a pasta amor_isabelly.
+3. Clique duas vezes em index.html para abrir no navegador.
+
+Para publicar no GitHub Pages:
+1. Envie index.html e a pasta fotos para o repositório.
+2. Em Settings > Pages, escolha a branch principal e a pasta raiz.
+3. Salve e aguarde a publicação.
+
+IMPORTANTE — DATA DA CONTAGEM:
+A contagem está configurada para 8 de maio de 2026, pois o ano não foi informado.
+Se vocês começaram em outro ano, abra index.html, procure:
+const inicioRelacionamento=new Date(2026,4,8,0,0,0);
+e troque 2026 pelo ano correto. O mês 4 representa maio em JavaScript.
+
+As fotos fornecidas foram incluídas na pasta fotos.
